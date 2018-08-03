@@ -43,9 +43,9 @@ compile assets, but also minify and optimize them
 ```bash
 (php) bin/console server:run
 ```
-### Create enity
+### Create entity
 ```bash
-(php) bin/console make:enity
+(php) bin/console make:entity
 ```
 ### Create controller
 ```bash
