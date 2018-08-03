@@ -22,7 +22,7 @@ compile assets, but also minify and optimize them
  ./node_modules/.bin/encore production
 ```
 
-## Check the .env File for database migration
+## Check the .env file for database migration
 ### create database with
 ```bash
 (php) bin/console doctrine:database:create
