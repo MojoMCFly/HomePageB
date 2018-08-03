@@ -2,7 +2,7 @@
 with bootstrap font-awesome, jquery pre installed
 compile with webpack.
 
-# Setup proect after checkout
+# Setup project after checkout
 ## Load Node Modules
 if not installed download yarn[here](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 ```bash
