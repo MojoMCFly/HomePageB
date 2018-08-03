@@ -4,7 +4,7 @@ compile with webpack.
 
 # Setup project after checkout
 ## Load Node Modules
-if not installed download yarn[here](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
+if not installed download yarn [here](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 ```bash
 yarn install
 ```
