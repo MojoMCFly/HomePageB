@@ -5,12 +5,12 @@ compile with webpack.
 ## First run composer
 if not installed download composer [here](https://getcomposer.org/doc/00-intro.md#using-the-installer)
 ```bash
-composer install
+$ composer install
 ```
 ## Load node modules
 if not installed download yarn [here](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 ```bash
-yarn install
+$ yarn install
 ```
 ## Load assets with webpack
 compile assets once
@@ -19,25 +19,25 @@ compile assets once
 ```
 recompile assets automatically when files change
 ```bash
- ./node_modules/.bin/encore dev --watch
+$ ./node_modules/.bin/encore dev --watch
 ```
 compile assets, but also minify and optimize them
 ```bash
- ./node_modules/.bin/encore production
+$ ./node_modules/.bin/encore production
 ```
 
 ## Check the .env file for database migration
 ### create database with
 ```bash
-(php) bin/console doctrine:database:create
+$ (php) bin/console doctrine:database:create
 ```
 ### create a migration file with
 ```bash
-(php) bin/console  make:migration
+$ (php) bin/console  make:migration
 ```
 ### then migrate the database with
 ```bash
-(php) bin/console  doctrine:migrations:migrate
+$ (php) bin/console  doctrine:migrations:migrate
 ```
 
 # Maybe useful
@@ -45,15 +45,15 @@ compile assets, but also minify and optimize them
 
 ### Start server with
 ```bash
-(php) bin/console server:run
+$ (php) bin/console server:run
 ```
 ### Create entity
 ```bash
-(php) bin/console make:entity
+$ (php) bin/console make:entity
 ```
 ### Create controller
 ```bash
-(php) bin/console make:controller
+$ (php) bin/console make:controller
 ```
 
 ### enjoy
