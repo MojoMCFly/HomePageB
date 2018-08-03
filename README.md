@@ -1,9 +1,13 @@
 # symfony-demo
 with bootstrap font-awesome, jquery pre installed
 compile with webpack.
-
 # Setup project after checkout
-## Load Node Modules
+## First run composer
+if not installed download composer [here](https://getcomposer.org/doc/00-intro.md#using-the-installer)
+```bash
+composer install
+```
+## Load node modules
 if not installed download yarn [here](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 ```bash
 yarn install
