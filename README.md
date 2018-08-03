@@ -15,7 +15,7 @@ $ yarn install
 ## Load assets with webpack
 compile assets once
 ```bash
- ./node_modules/.bin/encore dev
+$ ./node_modules/.bin/encore dev
 ```
 recompile assets automatically when files change
 ```bash
