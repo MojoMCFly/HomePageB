@@ -1,3 +1,20 @@
 h1 {
     color: red;
 }
+nav{
+    border-bottom:2px groove;
+    background-color: #fff !important;
+}
+body,html{
+    height:100%;
+}
+
+.footer {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
