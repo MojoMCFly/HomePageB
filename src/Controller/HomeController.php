@@ -56,4 +56,21 @@ class HomeController extends AbstractController
         return $this->render('restposten/restposten.html.twig');
     }
 
+    /**
+     *@Route("/impressum",name="impressum")
+     */
+    public function impressum()
+    {
+        return $this->render('Impressum/impressum.html.twig');
+    }
+
+    /**
+     *@Route("/anfahrt",name="anfahrt")
+     */
+    public function anfahrt()
+    {
+        return $this->render('anfahrt/anfahrt.html.twig');
+    }
+
+
 }

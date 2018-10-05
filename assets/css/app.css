@@ -1,20 +1,82 @@
-h1 {
-    color: red;
-}
+
 nav{
     border-bottom:2px groove;
     background-color: #fff !important;
 }
-body,html{
-    height:100%;
+/*body,html{*/
+    /*height:100%;*/
+/*}*/
+
+/*.footer {*/
+
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*padding: 1rem;*/
+/*}*/
+
+.abstand {
+    margin-top: 20px;
 }
 
-.footer {
+ul {
+    list-style: none;
+}
 
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
+.marginli{
+    margin-left: -40px;
+}
+.abstand2{
+    margin-top: 40px;
+}
+.abstandicons{
+     margin-top: 4px;
+ }
+.abstandbottom{
+    margin-bottom: 50px;
+}
+
+#erklaerung-text,#allgemein-text,#haftung-text{
+    display:none;
+}
+
+.active{
+    font-weight: bold;
+}
+.active>a{
+    color: #ed1b24 !important;
+}
+
+.responsive{
+    width: 70%;
+    height: auto;
+}
+
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#container {
+    min-height:100%;
+    position:relative;
+}
+#body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#6cf;
+}
+
+.responsivemap{
+    width:80%;
+    height:500px;
 }
 
